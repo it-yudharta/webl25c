@@ -19,3 +19,9 @@
 3. masukkan `README.md` ke stage dan commit.
 4. tambahkan remote github.
 5. publish/push/sync ke github.
+
+#### setting cloudflare
+1. install wrangler dan cloudflare/vite-plugin degan menjalankan `npm install -D @cloudflare/vite-plugin wrangler` di terminal.
+2. setting cloudflare di `vite.config.js`.
+3. buat dan setting `wrangler.jsonc`
+4. buat file `index.js` di folder api untuk backend.
