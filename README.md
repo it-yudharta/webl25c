@@ -17,3 +17,5 @@
 1. buat repository di github dengan nama repo `webl25c`.
 2. masuk ke menu source controle di github dan pilih `initialize repository`.
 3. masukkan `README.md` ke stage dan commit.
+4. tambahkan remote github.
+5. publish/push/sync ke github.
