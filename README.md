@@ -25,3 +25,6 @@
 2. setting cloudflare di `vite.config.js`.
 3. buat dan setting `wrangler.jsonc`
 4. buat file `index.js` di folder api untuk backend.
+5. create worker di cloudflare dengan memilih `Import a repository` dan pilih `webl25c`.
+6. biarkan setting standart pilih build.
+

@@ -1,8 +1,8 @@
 {
   "name": "webl25c",
-  "compatibility_date": "2024-12-30",
-  "assets": { 
+  "compatibility_date": "2025-05-05",
+  "assets": {
     "not_found_handling": "single-page-application"
   },
-  "main": "./api/index.ts"
+  "main": "./api/index.js"
 }
