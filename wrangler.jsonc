@@ -5,5 +5,12 @@
     "binding": "ASSETS",
     "not_found_handling": "single-page-application"
   },
-  "main": "./api/index.js"
+  "main": "./api/index.js",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "WEBL25C",
+      "database_id": "0ee593f1-3b74-4b9a-abd6-297f9d4552a3"
+    }
+  ]
 }

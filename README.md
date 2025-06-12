@@ -31,3 +31,9 @@
 #### setting backend
 1. install hono dengan menjalankan `npm install hono` di terminal.
 2. setting file `api/index.js` menggunakan hono.
+3. buat database di cloudflare kemudian ambil id nya.
+4. pada `wrangler.json` setting `d1_databases`.
+5. buat migrasi dengan menjalankan `wrangler d1 migrations create WEBL25C create_products`.
+6. setting file `0001_create_products.sql`.
+7. jalankan migrasi dengan `wrangler d1 migrations apply WEBL25C`.
+8. setting api pada route `/api/products`.
