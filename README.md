@@ -28,3 +28,6 @@
 5. create worker di cloudflare dengan memilih `Import a repository` dan pilih `webl25c`.
 6. biarkan setting standart pilih build.
 
+#### setting backend
+1. install hono dengan menjalankan `npm install hono` di terminal.
+2. setting file `api/index.js` menggunakan hono.
