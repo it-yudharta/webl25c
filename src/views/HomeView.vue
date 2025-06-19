@@ -35,7 +35,7 @@ const removeProduct = async (id) => {
           <div>nama: {{ product.name }}</div>
           <div>harga: {{ product.price }}</div>
           <div>
-            <!-- <RouterLink :to="`/product/${product.id}`">Edit</RouterLink> -->
+            <RouterLink :to="`/products/${product.id}`">Edit</RouterLink>
           </div>
           <div>
             <button @click="removeProduct(product.id)">Hapus Data</button>
